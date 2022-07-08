@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nodeList</title>
+</head>
+<body>
+    <ul id="menu1">
+        <li id="first">One</li>
+        <li id="second">Two</li>
+        <li id="three">Three</li>
+    </ul>
+
+    <ul id="menu2">
+        <li>gallick</li>
+        <li>gun</li>
+    </ul> 
+    <script>
+        let list = document.getElementById('li');
+
+        const menu1 = document.getElementById('menu1');
+        menu1.appendChild(document.createElement('li'));
+        menu1.appendChild(document.createElement('li'));
+
+        list = document.getElementById('li');
+    </script>
+</body>
+</html>
